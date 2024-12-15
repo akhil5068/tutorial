@@ -43,5 +43,5 @@ jobs:
 
       # Step 7: Push the Docker image to Docker Hub
       - name: Push the Docker image
-        run: docker push akhil68/myimages:latest
+        run: docker push akhil68/myimages:v1
 
